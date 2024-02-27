@@ -2,7 +2,7 @@
 import React from 'react'
 import Background from './components/Background'
 import Foreground from './components/Foreground'
-import Home from './components/home'
+import Home from './components/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Page from './Page';
 
@@ -15,8 +15,8 @@ const App = () => {
       <Foreground /> */}
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/todos" element={<Page />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/todos" element={<Page />}></Route>
       </Routes>
     </BrowserRouter>
     {/* <Home /> */}
