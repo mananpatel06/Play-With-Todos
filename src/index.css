@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(39 39 42 ); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(239 68 68);
+  border-radius: 10px;
+}
+
+
+::selection {
+  color: rgb(63, 63, 223);
+}
