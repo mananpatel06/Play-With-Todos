@@ -15,8 +15,8 @@ const App = () => {
       <Foreground /> */}
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/todos" element={<Page />}></Route>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/todos" element={<Page />}></Route>
       </Routes>
     </BrowserRouter>
     {/* <Home /> */}
