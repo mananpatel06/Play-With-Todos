@@ -4,7 +4,7 @@ import Background from './components/Background'
 import Foreground from './components/Foreground'
 import Home from './components/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Page from './page';
+import Page from './Page';
 
 
 const App = () => {
